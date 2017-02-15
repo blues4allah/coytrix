@@ -30,7 +30,7 @@ var resizeSoundCloud = function () {
 var insertVideo = function (posterImage) {
   posterImage.classList.add('fade-out');
   setTimeout(function () {
-    var youtubeVideo = "<iframe src=\"http://www.youtube.com/embed/_LsNFXnxN5Y?autoplay=1\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>";
+    var youtubeVideo = "<iframe src=\"https://www.youtube.com/embed/_LsNFXnxN5Y?autoplay=1\" scrolling=\"no\" frameborder=\"0\" allowfullscreen></iframe>";
     $('#poster').innerHTML += youtubeVideo;
     resizeVideo();
     setTimeout(function () {
