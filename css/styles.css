@@ -134,6 +134,7 @@ p {
 
 #music_section {
   margin-top: 80px;
+  margin-bottom: 20px;
 }
 
   #music_section iframe {
@@ -148,13 +149,18 @@ p {
 
 #contact {
   padding: 0 0 0 20px;
-  width: 350px;
+  max-width: 400px;
   float: left;
 }
   
   #contact p {
     line-height: 1.6;
+    margin: 0;
     color: #ddd;
+  }
+
+  #contact h2 {
+    margin-bottom: 20px;
   }
 
 #band_photo {
